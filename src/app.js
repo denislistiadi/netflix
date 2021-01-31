@@ -1,8 +1,26 @@
 import React from 'react';
-import {JumbotronContainer} from './container/jumbotron';
+import { BrowserRouter as Routes, Route } from 'react-router-dom'
+import * as ROUTES from './constants/routes';
+import { Home, Browse, Signin, Signup } from './pages/index';
 
-function App() {
-  return <JumbotronContainer/>;
-};
+export default function App() {
+  return (
+    <Routes>
+      <Route path={ROUTES.BROWSE}>
+        <Browse />
+      </Route>
 
-export default App;
+      <Route path={ROUTES.SIGN_UP}>
+        <Signup />
+      </Route>
+
+      <Route path={ROUTES.SIGN_IN}>
+        <Signin />
+      </Route>
+      
+      <Route exact path={ROUTES.HOME}>
+        <Home />
+      </Route> 
+    </Routes>
+  );
+}
