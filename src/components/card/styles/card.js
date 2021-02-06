@@ -142,8 +142,8 @@ export const Meta = styled.div`
     position: absolute;
     bottom: 0;
     padding: 10px;
-    background-color: #00000008f
-;`;
+    background: rgb(0, 0, 0, 0.5);
+`;
 
 export const Entities = styled.div`
      display: flex;

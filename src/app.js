@@ -20,9 +20,9 @@ export default function App() {
         <ProtectedRoute user={user} path={ROUTES.BROWSE}>
           <Browse />
         </ProtectedRoute>
-        <IsUserRedirect user={user} path={ROUTES.BROWSE}>
+        
           <Home />
-        </IsUserRedirect>
+        
       </Switch>
     </Routes>
   );

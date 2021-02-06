@@ -177,6 +177,7 @@ export const Logo = styled.img`
     @media (max-width: 600px) {
         height: 30px;
         width: 160px;
+        margin-right: 5px;
 
     }
 `;
