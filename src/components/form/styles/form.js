@@ -15,6 +15,14 @@ export const Container = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
+
+    @media (max-width: 600px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        padding: 20px;
+        width: 80%;
+    }
 `;
 
 export const Base = styled.form`

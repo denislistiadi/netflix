@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Base, Error, Title, Text, TextSmall, ButtonLink, Input, Submit } from "./styles/form";
 
-export default function Form({children, ...restProps}) {
+function Form({children, ...restProps}) {
     return <Container {...restProps}>{children}</Container>;
 };
 
@@ -37,3 +37,5 @@ Form.Input = function FormInput({children, ...restProps}) {
 Form.Submit = function FormSubmit({children, ...restProps}) {
     return <Submit {...restProps}>{children}</Submit>;
 };
+
+export default Form;

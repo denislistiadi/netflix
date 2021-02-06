@@ -6,7 +6,7 @@ import { JumbotronContainer } from '../containers/jumbotron';
 import { OptForm } from '../components';
 import  { Feature } from '../components';
 
-export default function Home() {
+function Home() {
     return (
         <>
             <HeaderContainer>
@@ -31,3 +31,5 @@ export default function Home() {
         </>
     )
 }
+
+export default Home;

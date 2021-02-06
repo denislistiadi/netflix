@@ -6,7 +6,7 @@ import { Form } from "../components";
 import { FooterContainer } from '../containers/footer';
 import * as ROUTES from '../constants/routes';
 
-export default function Signin() {
+function Signin() {
 
     const history = useHistory();
 
@@ -69,3 +69,5 @@ export default function Signin() {
         </>
     );
 };
+
+export default Signin;
