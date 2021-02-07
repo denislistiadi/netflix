@@ -172,7 +172,7 @@ export const Profile = styled.div`
 export const Logo = styled.img`
     height: 40px;
     width: 160px;
-    margin-right: 70px;
+    margin-right: 80px;
 
     @media (max-width: 600px) {
         height: 30px;
