@@ -5,6 +5,7 @@ import { HeaderContainer } from '../containers/header';
 import { Form } from "../components";
 import { FooterContainer } from '../containers/footer';
 import * as ROUTES from '../constants/routes';
+import Helmet from 'react-helmet';
 
 function Signup() {
 
@@ -44,6 +45,9 @@ function Signup() {
 
     return (
         <>
+        <Helmet>
+            <title>Sign Up - Netflix Clone</title>
+        </Helmet>
             <HeaderContainer>
                 <Form>
                     <Form.Title> Sign Up</Form.Title>

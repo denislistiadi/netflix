@@ -5,10 +5,14 @@ import { FooterContainer } from '../containers/footer';
 import { JumbotronContainer } from '../containers/jumbotron';
 import { OptForm } from '../components';
 import  { Feature } from '../components';
+import { Helmet } from 'react-helmet';
 
 function Home() {
     return (
         <>
+            <Helmet>
+                <title>Home - Netflix Clone</title>
+            </Helmet>
             <HeaderContainer>
                 <Feature>
                     <Feature.Title>
