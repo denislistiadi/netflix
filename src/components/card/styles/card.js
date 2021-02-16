@@ -99,7 +99,7 @@ export const FeatureTitle = styled(Title)`
 `;
 
 export const FeatureClose = styled.button`
-     color: white;
+     background-color: transparent;
      position: absolute;
      right: 20px;
      top: 20px;
